@@ -18,6 +18,9 @@ The documentation and steps to follow are in the following [link](https://github
 
 obs: redirecionar o link para o relatório
 
+### Future features
+* Implementing this automated tests using the platform Jenkins.
+
 
 ### Author
 [Ricardo Certo](https://github.com/ricardocerto16)
