@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.6.1.css">
+	<script src="https://code.jquery.com/qunit/qunit-2.6.1.js"></script>
+	<script src="Calc.js" ></script> //Source of the function to test.
+
+	<script>
+		QUnit.test("Calculator Test", function( assert ){ //Run Qunit
+			var num1 = 2; //Variable 1 of our Qunit test
+			var num2 = 3; //Variable 2 of our Qunit test
+
+			assert.equal(calc(num1,num2),5); //First test
+
+			assert.equal(calc(num1,num2),5); //Second test
+
+			assert.equal(calc(num2,num2),6);//Third test
+
+			assert.equal(calc(num1,num1),4) //Fourth test
+
+			});
+
+  </script>
+</head>
+<body>
+ 
+<div id="qunit"></div>
+ 
+</body>
+</html>
+
+		}

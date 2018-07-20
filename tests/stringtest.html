@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.6.1.css">
+	<script src="https://code.jquery.com/qunit/qunit-2.6.1.js"></script>
+	<script src="string.js" ></script>
+
+	<script>
+		QUnit.test("String test", function( assert ){
+			var string_example1 = "kapa";
+			var string_example2 = "kopo";
+			var string_example3 = "kepe"
+			assert.equal(string_test(string_example1,string_example2),"kapakopo");
+
+			assert.equal(string_test(string_example2,string_example1),"kopokapa");
+
+			assert.equal(string_test(string_example1,string_example3),"kapakepe");
+			});
+
+  </script>
+</head>
+<body>
+ 
+<div id="qunit"></div>
+ 
+</body>
+</html>
+
+		}
