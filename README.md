@@ -13,10 +13,9 @@ Grunt is a command line application that aims to automate tasks, especially task
 
 ### Steps and Documentation
 
-The documentation and steps to follow are in the following [link](https://github.com/ricardocerto16/Automated-Tests-JS-/tree/master/doc)
+The documentation and steps to follow are in the following [link](https://github.com/ricardocerto16/Automated-Tests-JS-/blob/master/doc/Documentation.pdf)
 
 
-obs: redirecionar o link para o relatório
 
 ### Future features
 * Implementing this automated tests using the platform Jenkins.
